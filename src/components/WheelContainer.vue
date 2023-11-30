@@ -48,14 +48,13 @@ prizes.value = [
     name: '1 free turn'
   },
 ]
-
 const spinBtn = ref(null)
 const wheel = ref(null)
 const prizeResult = ref(null)
 const spinning = ref(false)
 const prizeRatio = ref(0)
-
 const emit = defineEmits(['showDialog'])
+
 const playWheel = () => {
   if(spinning.value) return false
   if(userStore.spinningTimes < 1) {
@@ -88,7 +87,7 @@ const playWheel = () => {
       <div v-for="(prize, i) in prizes" class="prize" :style="`--i:${i+1};--clr:${prize.color}`" :key="i">
         <div class="prize__name">
           <span>{{ prize.name }}</span>
-          <img :src="`/static/img/${prize.svg}.svg`">
+          <img :src="`/static/img/${prize.svg}.svg`" alt="">
         </div>
       </div>
     </div>

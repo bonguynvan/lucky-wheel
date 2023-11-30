@@ -15,10 +15,6 @@ state management: `pinia`
 Click play to spin, first access you have 3 spins, if you run out of spin,
 clear site data and reload again.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).

@@ -6,7 +6,7 @@ import WheelContainer from "@/components/WheelContainer.vue";
 import {useUserStore} from "@/store/userStore";
 import LeaderBoard from "@/components/LeaderBoard.vue";
 import DialogReward from "@/components/DialogReward.vue";
-import {onMounted, ref, watch} from "vue";
+import {onMounted, ref} from "vue";
 
 const isDialog = ref(false)
 const statusDialog = ref(0)

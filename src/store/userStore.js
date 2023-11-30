@@ -18,9 +18,6 @@ export const useUserStore = defineStore('user', {
         },
         toggleSound() {
             this.soundEnabled = !this.soundEnabled
-            document.querySelectorAll("video, audio").forEach((elem) => {
-                elem.muted = !this.soundEnabled;
-            });
         }
     },
     persist: true,
