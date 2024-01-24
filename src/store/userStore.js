@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 
 export const useUserStore = defineStore('user', {
-    state: () => ({ spinningTimes: 3, name: 'Eduardo', winning: 0, usedTimes: 0, isMenu: false, soundEnabled: true }),
+    state: () => ({ spinningTimes: 9999, name: 'Eduardo', winning: 0, usedTimes: 0, isMenu: false, soundEnabled: true }),
     actions: {
         addSpinningTimes(times) {
             this.spinningTimes+=times
